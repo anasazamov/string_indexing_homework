@@ -7,7 +7,7 @@ def main(s):
         int: answer
     """
     if s.find("*")>-1:
-        return s.inde("*")
+        return s.index("*")
     else :
         return False
 
