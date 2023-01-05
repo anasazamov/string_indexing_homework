@@ -8,5 +8,6 @@ def main(s):
     """
     sum=0
     for i in s :
-        sum+=int(s)
-    return
+        sum+=int(i)
+    return sum
+print(main("165"))

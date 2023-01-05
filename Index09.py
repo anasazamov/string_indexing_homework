@@ -6,7 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
-    if type (int(s)) ==str :
+    if s.isnumeric():
         return int(s)
-    else :
+    else:
         return -1

@@ -8,6 +8,8 @@ def main(s):
     """
     length=0
     for i in s:
-        if s.isnumeric() :
+        
+        if i.isnumeric() :
             length+=1
     return length
+print(main("sds54sadsa465xcs6546"))
