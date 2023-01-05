@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    length=0
+    for i in s:
+        if s.isnumeric() :
+            length+=1
+    return length

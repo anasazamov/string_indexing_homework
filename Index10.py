@@ -6,4 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
+    sum=0
+    for i in s :
+        sum+=int(s)
     return
